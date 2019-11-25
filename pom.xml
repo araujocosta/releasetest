@@ -19,7 +19,7 @@
 	</build>
 
 	<scm>
-		<developerConnection>scm:git:git@github.com:araujocosta/sfg-pet-clinic.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:araujocosta/releasetest.git</developerConnection>
 		<tag>artifact-0.0.1</tag>
 	</scm>
 </project>
