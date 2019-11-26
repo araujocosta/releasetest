@@ -4,8 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>group</groupId>
 	<artifactId>artifact</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
+
+	<properties>
+		<project.scm.id>my-scm-server</project.scm.id>
+	</properties>
 
 	<build>
 		<plugins>
@@ -21,7 +25,8 @@
 	</build>
 
 	<scm>
-		<developerConnection>scm:git:origin</developerConnection>
+		<connection>scm:git:ssh://git@github.com/araujocosta/releasetest.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/araujocosta/releasetest.git</developerConnection>
 		<tag>artifact-0.0.1</tag>
 	</scm>
 </project>
