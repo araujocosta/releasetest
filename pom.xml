@@ -23,7 +23,7 @@
 	</build>
 
 	<scm>
-		<connection>scm:git:ssh://git@github.com/araujocosta/releasetest.git</connection>
+		<connection>scm:git:git@github.com/araujocosta/releasetest.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/araujocosta/releasetest.git</developerConnection>
 		<tag>artifact-0.0.2</tag>
 	</scm>
